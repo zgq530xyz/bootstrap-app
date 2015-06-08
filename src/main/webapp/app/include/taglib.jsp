@@ -5,3 +5,4 @@
 <c:set var="adminlte"  value="${web.path}/static/adminlte-2.1.1"/>
 <c:set var="acebase"  value="${web.path}/static/ace-v1.3"/>
 <c:set var="ace"  value="${web.path}/static/ace-v1.3/assets"/>
+<c:set var="app"  value="${web.path}/app"/>

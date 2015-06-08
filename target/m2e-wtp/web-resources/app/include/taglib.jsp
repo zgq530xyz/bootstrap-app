@@ -5,3 +5,4 @@
 <c:set var="adminlte"  value="/bootstrap-app/static/adminlte-2.1.1"/>
 <c:set var="acebase"  value="/bootstrap-app/static/ace-v1.3"/>
 <c:set var="ace"  value="/bootstrap-app/static/ace-v1.3/assets"/>
+<c:set var="app"  value="/bootstrap-app/app"/>

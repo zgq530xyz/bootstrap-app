@@ -1,0 +1,108 @@
+/* ##########  */
+/*   $GLOBAL   */
+/* ##########  */
+/* line 10, ../sass/typica-login.scss */
+html {
+  height: 100%;
+}
+
+/* line 13, ../sass/typica-login.scss */
+body {
+  background: url(${web.path}/static/image/login/bg1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (min-width: 979px) {
+  /* line 13, ../sass/typica-login.scss */
+  body {
+    padding-top: 80px;
+  }
+}
+
+
+
+/* ####### */
+/* $LOGIN  */
+/* ####### */
+/* line 80, ../sass/typica-login.scss */
+#login-wraper {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin-top: -185px;
+  margin-left: -235px;
+  padding: 25px;
+  width: 420px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+/* line 97, ../sass/typica-login.scss */
+.login-form legend {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+}
+.login-form legend span {
+  color:#08c;
+  font-size: 30px
+}
+/* line 102, ../sass/typica-login.scss */
+.login-form .body {
+  padding-bottom: 5px;
+}
+/* line 106, ../sass/typica-login.scss */
+.login-form .footer {
+  margin-top: 20px;
+}
+/* line 108, ../sass/typica-login.scss */
+.login-form .footer .checkbox.inline {
+  display: inline;
+}
+/* line 110, ../sass/typica-login.scss */
+.login-form .footer .checkbox.inline input[type="checkbox"] {
+  float: none;
+  margin-top: -4px;
+}
+/* line 115, ../sass/typica-login.scss */
+.login-form .footer .btn {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-left: 15px;
+  padding: 7px 25px;
+  background-image: none;
+}
+.control-group{
+	border-bottom:0px;
+	padding:8px;
+}
+.controls span{
+	margin:0 2 0 5px;
+}
+.controls_right{
+	line-height:100%;
+	float:right;
+	width:40%;
+}
+
+.controls_left{
+	line-height:100%;
+	float:left;
+	width:60%;
+}
+.required{
+	height: 35px;
+	margin-left: 10px;
+}
